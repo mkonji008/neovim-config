@@ -73,6 +73,7 @@ ansible
 distrobox
 cargo
 rustc
+rustup
 go
 hugo
 pipx
