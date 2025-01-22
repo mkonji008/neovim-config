@@ -81,4 +81,5 @@ tldr
 bat
 ranger
 exa
+yarn
 ```
