@@ -16,9 +16,6 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "gruvbox",
-      require("notify").setup({
-        background_colour = "#000000",
-      }),
     },
   },
 }
