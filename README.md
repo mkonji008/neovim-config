@@ -44,11 +44,21 @@
   sudo dnf copr enable atim/lazygit -y
   sudo dnf install lazygit
   ```
-3. docker
+3. docker / alt use podman depending on role
 use docker install scripts from dockers website
 `https://docs.docker.com/engine/install/fedora/` - just go through pg 1-2
 
-4. package manager installs
+
+4. common issues
+   i have had a few instances where markdown preview, ie (:MarkdownPreview), requires to be installed manually with npm.
+   see issue here -- [see github issue](https://github.com/iamcco/markdown-preview.nvim/issues/695)
+
+   to resolve this, the provided fix has worked the few times i ran into it
+```
+cd ~/.local/share/nvim/lazy/markdown-preview.nvim
+npm install
+```   
+5. package manager installs
 
 note for clipboard manager if you use wayland or xorg. default is xorg
 ```
